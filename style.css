@@ -5,58 +5,56 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;  /* Centrerar horisontellt */    
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #dcacac; /* Din bakgrundsfärg runt om */
+  display: flex; /* Använd flexbox för att centrera innehållet */
+  justify-content: center; /* Centrerar horisontellt */    
+  font-family: Arial, sans-serif; /* Sätter typsnitt */
+  line-height: 1.6; /* Öka radavståndet för bättre läsbarhet */
+  background-color: #dcacac; /* Sätter bakgrundsfärg runt om */
 }
 
-/* Rubrik i header – utan extra mellanrum */
 h1 {
-  color: #a10000;
+  color: #a10000; /* Sätter rubrikfärg */
 }
 
 span {
-  font-weight: normal;
+  font-weight: normal; /* Stylar 4 port */
 }
 
 .header-image {
-  display: block;
-  width: 100%;
-  height: auto;
+  width: 100%; /* Sätter bredd till 100% av container */
+  height: auto; /* Sätter höjd till auto för att behålla bildens proportioner */
 }
 
 .container {
-  min-height: 100vh;
-  margin-bottom: 64px;
-  max-width: 1280px;
-  background-color: #fff;
+  min-height: 100vh; /* Sätter minimi höjd till 100vh för att fylla hela skärmen */
+  margin-bottom: 64px; /* Lägger till marginal längst ner på sidan */
+  max-width: 1280px; /* Sätter max bredd för container */
+  background-color: #fff; /* Sätter bakgrundsfärg för container */
 }
 
 .recipes {
-  padding: 64px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+  padding: 64px; /* Lägger till padding runt om */
+  display: flex; /* Använder flexbox för att styra layout */
+  flex-direction: column; /* Ställer in flex-riktning till kolumn */
+  gap: 32px; /* Lägger till mellanrum mellan elementen */
 }
 
 .text-container {
-  padding: 24px;
-  background-color: #ebebeb;
+  padding: 24px; /* Lägger till padding runt textcontainer */
+  background-color: #ebebeb; /* Sätter bakgrundsfärg för textcontainer */
 }
 
 .inner-container {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  display: flex; /* Använder flexbox för att styra layout */
+  flex-direction: column; /* Ställer in flex-riktning till kolumn */
+  gap: 12px; /* Lägger till mellanrum mellan elementen */
 }
 
 .servings {
-  display: flex;
-  gap: 24px;
+  display: flex; /* Använder flexbox för att styra layout */
+  gap: 24px; /* Lägger till mellanrum mellan elementen */
 }
 
 ul, ol {
-  list-style-position: inside;
+  list-style-position: inside; /* Sätter liststil till inside */
 }
