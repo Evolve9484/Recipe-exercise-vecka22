@@ -1,0 +1,62 @@
+* {
+  margin: 0; /* Ta bort standardmarginaler */
+  padding: 0; /* Ta bort standardpadding */
+  box-sizing: border-box; /* Ställ in box-sizing för att inkludera padding och border i elementets totala bredd och höjd */
+}
+
+body {
+  display: flex;
+  justify-content: center;  /* Centrerar horisontellt */    
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #dcacac; /* Din bakgrundsfärg runt om */
+}
+
+/* Rubrik i header – utan extra mellanrum */
+h1 {
+  color: #a10000;
+}
+
+span {
+  font-weight: normal;
+}
+
+.header-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  min-height: 100vh;
+  margin-bottom: 64px;
+  max-width: 1280px;
+  background-color: #fff;
+}
+
+.recipes {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text-container {
+  padding: 24px;
+  background-color: #ebebeb;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.servings {
+  display: flex;
+  gap: 24px;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
